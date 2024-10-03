@@ -34,11 +34,8 @@ const lowerCaseWords = (mixedArray) => {
 // Test case from the document
 const mixedArray = ["Pizza", 10, true, 25, false, "Wings"];
 
-console.log("Original array:", mixedArray);
-
 lowerCaseWords(mixedArray)
   .then((result) => {
     console.log("New array:", result);
-    console.log("Original array:", mixedArray);
   })
   .catch((error) => console.error(error));
